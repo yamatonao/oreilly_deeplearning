@@ -15,8 +15,7 @@ def and_block(input1, input2):
     tmp = np.sum(matrix_weight * matrix_input) + bias
     if tmp <= 0:
         return 0
-    else:
-        return 1
+    return 1
 
 def nand_block(input1, input2):
     "this is function doc string"
@@ -26,8 +25,7 @@ def nand_block(input1, input2):
     tmp = np.sum(matrix_input * matrix_weight) + bias
     if tmp <= 0:
         return 0
-    else:
-        return 1
+    return 1
 
 def or_block(input1, input2):
     "this is fuction doc string"
@@ -37,8 +35,7 @@ def or_block(input1, input2):
     tmp = np.sum(matrix_weight*matrix_input) + bias
     if tmp <= 0:
         return 0
-    else:
-        return 1
+    return 1
 
 def xor_block(input1, input2):
     "this is function doc string"
